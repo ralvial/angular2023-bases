@@ -14,8 +14,7 @@ import { ListComponent } from './list/list.component';
     ListComponent,
   ],
   imports:[
-    CommonModule
-
+    CommonModule,
   ]
 })
 export class heroesModule{

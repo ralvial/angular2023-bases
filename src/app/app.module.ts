@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { counterModule } from './counter/counter.module';
 import { heroesModule } from './heroes/heroes.module';
+import { DbzModule } from './dbz/dbz.module';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { heroesModule } from './heroes/heroes.module';
     BrowserModule,
     counterModule,
     heroesModule,
+    DbzModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
